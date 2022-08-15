@@ -1,5 +1,5 @@
 # Auth-API using Node.js
-Deployed on heroku: https://quiet-coast-34295.herokuapp.com/
+Deployed on heroku: https://boiling-lowlands-13919.herokuapp.com
 ## 1. REGISTER
 METHOD: POST , REQUEST FORMAT: JSON , URL: /api/register  
   
