@@ -9,8 +9,6 @@ const cors = require("cors");
 const app=express();
 app.use(bodyParser.json());
 app.use(cors());
-
-
 app.use(cookieParser());
 mongoose.connect(process.env.userDB);
 
