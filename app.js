@@ -12,7 +12,7 @@ app.use(cors());
 
 
 app.use(cookieParser());
-mongoose.connect("mongodb+srv://Delena:Delena123@cluster0.tglzo.mongodb.net/userDB");
+mongoose.connect(process.env.userDB);
 
 const homeRoute=require("./routes/home");
 const userRoute=require("./routes/user");
